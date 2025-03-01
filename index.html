@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div >
+<form >
+    <input type="number" placeholder="ENTER WEIGHT" id="in" >
+    <button type="button" onclick="weight()">ENTER BUTTON</button>
+</form>
+</div>
+<script>
+    let weight=()=>{
+    let x=document.getElementById("in")
+    let weightvalue=Number(x.value)
+    if(weightvalue>15){
+        alert("OverWeight!!")
+    }
+    else{
+        alert("OKAY!!")
+    }
+}
+</script>
+</body>
+</html>
